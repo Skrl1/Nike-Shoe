@@ -1,0 +1,170 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #17181F;
+    /* height: 3000px; */
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    width: 1332px;
+    height: 106px;
+    padding-left: 39px;
+    padding-right: 69px;
+}
+
+
+.nav ul li {
+    display: inline-block;
+    padding: 10px;;
+}
+.nav_links {
+    color: #EEEDF0;
+    text-decoration: none;
+    font-size: 26;
+    font-weight: medium;
+    font-family: Montserrat;
+}
+
+
+a.nav_links:hover {
+    border-bottom: 1px solid #EEEDF0;
+}
+
+.nav img {
+    margin-left: 100px;
+    width: 122px;
+    height: 3   1px;
+    position: absolute;
+    left: 0%;
+    right: 0.7%;;
+}
+.main h1 {
+    color: #EEEDF0;
+    opacity: 85%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 93px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background: url(img/mine-nike.svg);
+    background-position-y: -160px;
+    background-position-x: 300px;
+    /* position: absolute; */
+    height: 500px;
+    left: 20%;
+    background-repeat: no-repeat;
+}
+.main_content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_span {
+    display: flex;
+    justify-content: center;
+    color: #EEEDF0;
+    font-family: 'Lato', sans-serif;
+    size: 28px;
+    letter-spacing: 1px;
+    line-height: 33.6px;
+    text-align: center;
+}
+.line {
+    display: flex;
+    justify-content: center;
+    margin-top: 82px;
+    width: 150px;
+    height: 10.5px;
+    margin-bottom: 113px;
+}
+
+.mine_2 {
+    width: 1440px;
+    height: 700px;
+    background:linear-gradient(#CB69C1,#6C72CB,#EEEDF0);
+    background-image: url(img/53afa01b-cd20-4def-bd2a-201dadfae4d2\ 1.png);
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+}
+section .mine_2  span {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;   
+    color: rgba(238, 237, 240, 90%);
+  
+}
+.mine_2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 200px;
+    
+    font-family: 'Lato', sans-serif;    
+    color: rgba(238, 237, 240, 58%);
+    font-size: 220px;
+    line-height: 260px;
+    letter-spacing: 1px;
+}
+
+
+section {
+    background: linear-gradient(#CB69C1,#6C72CB,#EEEDF0);;
+}
+h3.main_child {
+    display: flex;
+    justify-content: flex-end;
+    color:rgba(238, 237, 240, 90%); ;
+    font-size: 56px;
+    margin-top: 87px;
+    font-family: 'Montserrat';
+}
+
+.arrow {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    margin: 0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+    
+.wrapper {
+    margin-top: 187px;
+    height: 1000px;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.5;
+}
+.swiper_list {
+    transform: rotate(50deg);
+    margin-bottom: 50px;
+}
+
+.swiper_list_2 {
+    transform: rotate(35deg);
+    margin-bottom: 60px;
+}
